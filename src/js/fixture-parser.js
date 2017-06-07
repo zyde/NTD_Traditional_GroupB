@@ -18,8 +18,6 @@ var FixtureParser = function() {
         $.each(fixtures, function(index, fixture) {
             if (fixture.country === 'Spain') {
                 if (fixture.kickOff.status === 'FULL_TIME') {
-                    fixture.score.homeGoals = 0;
-                    fixture.score.awayGoals = 0;
                 }
             }
         });
